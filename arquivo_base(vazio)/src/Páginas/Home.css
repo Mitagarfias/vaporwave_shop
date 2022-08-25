@@ -1,0 +1,98 @@
+.maincontainer{
+    justify-content: center;
+}
+
+.janela{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.appexe{
+    background-color: #2a3999;
+    color: white;
+    font-size: 18px;
+}
+
+.btcontainers{
+    background-color: #bdbcbc;
+}
+
+.products{
+    
+    background-color: #ececec;
+}
+
+.botao{
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    background-color: #acaaaa;
+}
+.botao:hover{
+    background-color: #394dcd;
+    color: white;
+}
+
+.About{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.About:hover{
+    color: white;
+}
+
+.faq{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.faq:hover{
+    color: white;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.home:hover{
+    color: white;
+}
+
+.Shirts{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.Shirts:hover{
+    color: white;
+}
+
+.moletons{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.moletons:hover{
+    color: white;
+}
+
+.hats{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.hats:hover{
+    color: white;
+}
