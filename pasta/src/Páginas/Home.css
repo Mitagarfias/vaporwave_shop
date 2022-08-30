@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+}
+
+.mainbox{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 250px;
+    background-image: linear-gradient(#bb75b8, #99b1d4);
+    width: 1750px;
+    height: 260px;
+    border: 2px solid black;
+}
+
+
+.appexe{
+    background-color: #348edc;
+    color: #fefefe;
+    font-size: 18px;
+    border: 2px solid black;
+    width: 800px;
+    height: 20px;
+}
+
+.window{
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+    color: #bb75b8;
+    font-size: 24px;
+}
+
+.lista{
+    list-style: none;
+}
+
+.element{
+    color: #131212;
+    display: inline;
+    padding-right: 30px;
+}
+
+.element :hover{
+    background-color: rgb(51, 51, 145);
+    color: #fefefe;
+}
+
+.imgs{
+    padding: 20px;
+}
