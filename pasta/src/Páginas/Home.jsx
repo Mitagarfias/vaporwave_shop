@@ -20,36 +20,42 @@ export default function Home() {
                 <div className='imgs'>
                                         
                         <div className='element'>
-                            <button className='botao'>
-                                <img src={Pasta} width='80px' height='76px' />
-                                <p>Battle Royale</p>
-                            </button>
+                            <Link to = '/battleroyale'>
+                                <button className='botao'>
+                                    <img src={Pasta} width='80px' height='76px' />
+                                    <p>Battle Royale</p>
+                                </button>
+                            </Link>
+
+                        </div>
+                        
+                        <div className='element'>
+                            <Link to = '/rpg'>
+                                <button className='botao'>
+                                    <img src={Pasta} width='80px' height='76px' />
+                                    <p>RPG</p>
+                                </button>
+                            </Link>
 
                         </div>
 
-                        
-                        
                         <div className='element'>
-                            <button className='botao'>
-                                <img src={Pasta} width='80px' height='76px' />
-                                <p>RPG</p>
-                            </button>
-
-                        </div>
-
-                        <div className='element'>
+                            <Link to = 'moba'>
                                 <button className='botao'>
                                     <img src={Pasta} width='80px' height='76px' />
                                     <p>MOBA</p>
                                 </button>
+                            </Link>
 
                         </div>
 
                         <div className='element'>
-                            <button className='botao'>
-                                <img src={Pasta} width='80px' height='76px' />
-                                <p>FPS</p>
-                            </button>
+                            <Link to = 'fps'>
+                                <button className='botao'>
+                                    <img src={Pasta} width='80px' height='76px' />
+                                    <p>FPS</p>
+                                </button>
+                            </Link>
 
                         </div>
                     
