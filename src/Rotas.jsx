@@ -3,11 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Páginas/Home';
 import Battle from './Páginas/Battle Royale';
 import Rpg from './Páginas/RPG';
+// ROTAS MOBA
 import Moba from './Páginas/MOBA';
 import Fps from './Páginas/FPS';
-import LOL from './Páginas/MOBA/Páginas/LOL';
-import MobileLegends from './Páginas/MOBA/Páginas/MobileLegends';
-import PokemonUnite from './Páginas/MOBA/Páginas/PokemonUnite';
+import LOL from './Páginas/MOBA/Páginas/LOL/LOL';
+import MobileLegends from './Páginas/MOBA/Páginas/MobileLegends/MobileLegends';
+import PokemonUnite from './Páginas/MOBA/Páginas/PokemonUnite/PokemonUnite';
 
 export default function Rotas() {
   return (

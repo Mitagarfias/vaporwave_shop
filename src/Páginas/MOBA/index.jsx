@@ -7,7 +7,12 @@ export default function MOBA(){
         <div className='container'>
 
     <div className='mainbox'>
-    <div className='navbar'>
+        <div className='navbar'>
+            <button className='navmoba'>
+                <Link to="/" className='Link'>
+                    Home
+                </Link>
+            </button>
             <button className='navmoba'>
                 <Link to="/moba" className='Link'>
                     Início
@@ -37,7 +42,7 @@ export default function MOBA(){
                 </Link>
             </button>
         </div>
-
+        <p> só pra confirmar que chegou em inicio</p>
     </div>
 
 </div>
