@@ -8,39 +8,41 @@ export default function LOL(){
 
     <div className='mainbox'>
         <div className='navbar'>
+        <Link to="/" className='Link'>
             <button className='navmoba'>
-                <Link to="/home" className='Link'>
                     Home
-                </Link>
             </button>
+        </Link>
+
+        <Link to="/moba" className='Link'>
             <button className='navmoba'>
-                <Link to="/moba" className='Link'>
                     Início
-                </Link>
             </button>
-
+        </Link>
+        <Link to="/lol" className='Link'>
             <button className='navmoba'>
-                <Link to="/lol" className='Link'>
                     League of Legends
-                </Link>
             </button>
-            
-            <button className='navmoba'>
-                <Link to="/mobilelegends" className='Link'>
-                    Mobile Legends
-                </Link>
-            </button>
+        </Link>
 
+            <Link to="/mobilelegends" className='Link'>
             <button className='navmoba'>
-                <Link to="/pokemonunite" className='Link'>
+                    Mobile Legends
+            </button>
+            </Link>
+
+            <Link to="/pokemonunite" className='Link'>
+            <button className='navmoba'>
                     Pokémon Unite
-                </Link>
             </button>
+            </Link>
+
+            <Link to="/pokemonunite" className='Link'>
             <button className='navmoba'>
-                <Link to="/pokemonunite" className='Link'>
                     oto jogo
-                </Link>
             </button>
+            </Link>
+            
         </div>
         <p> só pra confirmar que chegou em LOL</p>
     </div>
