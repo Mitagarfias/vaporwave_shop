@@ -26,18 +26,20 @@ export default function RPG(){
             </button>
             
             <button className='navmoba'>
-                <Link to="/" className='Link'>
-                    Jogo2
+                <Link to="/gta" className='Link'>
+                    GTA RP
                 </Link>
             </button>
 
             <button className='navmoba'>
-                <Link to="/" className='Link'>
-                    Jogo3
+                <Link to="/roblox" className='Link'>
+                    ROBLOX
                 </Link>
             </button>
+
+            
         </div>
-        <p> só pra confirmar que chegou em rpg</p>
+        <p> só pra confirmar que chegou em Início do Roblox</p>
     </div>
 
 </div>

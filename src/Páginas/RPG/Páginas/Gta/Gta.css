@@ -1,0 +1,31 @@
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display:flex;
+}
+.mainbox{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 250px;
+    background-image: linear-gradient(#bb75b8, #99b1d4);
+    width: 1750px;
+    height: 260px;
+    border: 2px solid black;
+}
+.navmoba{
+    background-image: linear-gradient(#bb75b8, #99b1d4);
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size:small;
+    height: 25px;
+    width: 180px;
+    border-color: white;
+    border-width: 1px;
+    margin: 0px;
+}
+body{
+    margin: 0;
+}

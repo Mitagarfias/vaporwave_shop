@@ -1,8 +1,8 @@
 import React from 'react';
-import './mine.css'
+import './Roblox.css'
 import { Link } from 'react-router-dom';
 
-export default function Minecraft(){
+export default function ROBLOX(){
     return(
         <div className='container'>
 
@@ -39,7 +39,7 @@ export default function Minecraft(){
 
             
         </div>
-        <p> só pra confirmar que chegou em Minecraft</p>
+        <p> só pra confirmar que chegou em Roblox</p>
     </div>
 
 </div>

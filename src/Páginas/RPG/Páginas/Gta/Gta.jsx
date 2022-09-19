@@ -1,8 +1,8 @@
 import React from 'react';
-import './mine.css'
+import './Gta.css'
 import { Link } from 'react-router-dom';
 
-export default function Minecraft(){
+export default function Gta(){
     return(
         <div className='container'>
 
@@ -37,9 +37,10 @@ export default function Minecraft(){
                 </Link>
             </button>
 
+
             
         </div>
-        <p> só pra confirmar que chegou em Minecraft</p>
+        <p> só pra confirmar que chegou em GTA</p>
     </div>
 
 </div>
